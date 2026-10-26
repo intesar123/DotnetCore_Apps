@@ -2,6 +2,8 @@ using CircuitBreakerTestApp.Application.Services;
 using CircuitBreakerTestApp.Domain;
 using Microsoft.AspNetCore.Mvc;
 
+namespace CircuitBreakerDemo.Controllers;
+
 [ApiController]
 [Route("api/[controller]")]
 public sealed class OrderController(IOrderService service) : ControllerBase
