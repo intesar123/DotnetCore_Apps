@@ -8,21 +8,22 @@
     ".NETCoreApp,Version=v10.0": {
       "CircuitBreakerTestApp/1.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.OpenApi": "10.0.13",
-          "Microsoft.Extensions.Http.Resilience": "10.11.0"
+          "Microsoft.AspNetCore.OpenApi": "10.0.14",
+          "Microsoft.Extensions.Http.Resilience": "10.11.0",
+          "Scalar.AspNetCore": "2.18.3"
         },
         "runtime": {
           "CircuitBreakerTestApp.dll": {}
         }
       },
-      "Microsoft.AspNetCore.OpenApi/10.0.13": {
+      "Microsoft.AspNetCore.OpenApi/10.0.14": {
         "dependencies": {
           "Microsoft.OpenApi": "2.12.2"
         },
         "runtime": {
           "lib/net10.0/Microsoft.AspNetCore.OpenApi.dll": {
-            "assemblyVersion": "10.0.13.0",
-            "fileVersion": "10.0.1326.50504"
+            "assemblyVersion": "10.0.14.0",
+            "fileVersion": "10.0.1426.52326"
           }
         }
       },
@@ -156,6 +157,14 @@
             "fileVersion": "8.4.2.3950"
           }
         }
+      },
+      "Scalar.AspNetCore/2.18.3": {
+        "runtime": {
+          "lib/net10.0/Scalar.AspNetCore.dll": {
+            "assemblyVersion": "2.18.3.0",
+            "fileVersion": "2.18.3.0"
+          }
+        }
       }
     }
   },
@@ -165,12 +174,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Microsoft.AspNetCore.OpenApi/10.0.13": {
+    "Microsoft.AspNetCore.OpenApi/10.0.14": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-XVuqUBGjVUVyb4DXR5BrSkrW0Br7sYKq39f723ILhQLlFHCyhAgWe1PkJBc42R/5mKBIgHiKVSY+PN5/4XtcQw==",
-      "path": "microsoft.aspnetcore.openapi/10.0.13",
-      "hashPath": "microsoft.aspnetcore.openapi.10.0.13.nupkg.sha512"
+      "sha512": "sha512-3M6yO4nv8fmvM/1X7DqQcMxw/ptNLBcUzZt19SBEyfZF32gqZuwoPNnYd1xlDnFvQOGOkZDncf7p9E24blcTkQ==",
+      "path": "microsoft.aspnetcore.openapi/10.0.14",
+      "hashPath": "microsoft.aspnetcore.openapi.10.0.14.nupkg.sha512"
     },
     "Microsoft.Extensions.AmbientMetadata.Application/10.11.0": {
       "type": "package",
@@ -262,6 +271,13 @@
       "sha512": "sha512-ehTImQ/eUyO07VYW2WvwSmU9rRH200SKJ/3jku9rOkyWE0A2JxNFmAVms8dSn49QLSjmjFRRSgfNyOgr/2PSmA==",
       "path": "polly.ratelimiting/8.4.2",
       "hashPath": "polly.ratelimiting.8.4.2.nupkg.sha512"
+    },
+    "Scalar.AspNetCore/2.18.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6KXPOkCNnoZTXBl8GVNxq/zpS9UdGnz1a23EWy3CEiwYbZKQ5gi2APZ5mBruXcdXIr+ZXSZYiwX81UagjKFxeg==",
+      "path": "scalar.aspnetcore/2.18.3",
+      "hashPath": "scalar.aspnetcore.2.18.3.nupkg.sha512"
     }
   }
 }
